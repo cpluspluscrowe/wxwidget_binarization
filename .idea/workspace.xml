@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a344cf4-07b5-4178-8048-5a74fffbbf32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gray_image.png" afterPath="$PROJECT_DIR$/gray_image.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imageBinarization.py" afterPath="$PROJECT_DIR$/imageBinarization.py" />
@@ -15,15 +14,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ImageBinarization$imageBinarization.coverage" NAME="imageBinarization Coverage Results" MODIFIED="1570756309089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ImageBinarization$imageBinarization.coverage" NAME="imageBinarization Coverage Results" MODIFIED="1570758704225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="imageBinarization.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="imageBinarization.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imageBinarization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="168">
+              <caret line="86" column="24" lean-forward="true" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
@@ -33,6 +32,27 @@
       </file>
       <file leaf-file-name="image.jpeg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image.jpeg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gray_image.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gray_image.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="current_image.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/current_image.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -51,6 +71,10 @@
     <findStrings>
       <find>sld</find>
       <find>slider</find>
+      <find>gray_image</find>
+      <find>imwrite</find>
+      <find>thresh</find>
+      <find>refresh_image</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -263,11 +287,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gray_image.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -275,12 +294,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imageBinarization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="168">
+          <caret line="86" column="24" lean-forward="true" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/current_image.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gray_image.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
