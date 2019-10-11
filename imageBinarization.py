@@ -24,6 +24,16 @@ cv2.imwrite('gray_image.png',gray_image)
 # load the gray image
 gray_image = cv2.imread("./gray_image.png")
 
+def myfunc(a, b):
+    "Return a-b if a>b, otherwise return a+b"
+    if a < b:
+        return 0
+    else:
+        return 255
+
+
+vfunc = np.vectorize(myfunc)
+
 
 #plt.imshow(thresh5,'gray')
 
@@ -66,7 +76,8 @@ class Mywin(wx.Frame):
     def OnSliderScroll(self, e):
         obj = e.GetEventObject()
         val = obj.GetValue()
-        ret, thresh = cv2.threshold(gray_image, val, 255, cv2.THRESH_BINARY)
+        thresh = vfunc(gray_image, val)
+        #ret, thresh = cv2.threshold(gray_image, val, 255, cv2.THRESH_BINARY)
         cv2.imwrite('gray_image.png', thresh)
         self.refresh_image()
         #font = self.GetFont()
